@@ -1,0 +1,8 @@
+[Unit]
+Description=pythontestbot
+
+[Service]
+ExecStart=/root/pythontestbot/runpythontestbot.sh
+
+[Install]
+WantedBy=multi-user.target
